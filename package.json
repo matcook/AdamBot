@@ -1,0 +1,21 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "bot for discord with node.js and discord.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mathew Cook",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "ffmpeg-binaries": "^4.0.0",
+    "ms": "^2.1.1",
+    "opusscript": "0.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
